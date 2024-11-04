@@ -1,5 +1,5 @@
 id: particle/hello-world
-catagory: tutorial
+category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-hello-world
 name: "Getting Started: Hello World"
