@@ -6,7 +6,7 @@ name: "Getting Started: Hello World"
 shortDescription: The classic application, running on your Particle device!
 version: 1.0.0
 models: []
-language: "Particle Wiring"
+language: [ "Particle Wiring" ]
 cloudServices: []
 integrations: []
 hardwareDependencies:
