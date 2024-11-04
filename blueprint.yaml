@@ -1,22 +1,16 @@
-- id: particle/hello-world
-  catagory: tutorial
-  icon: particle.png
-  gitrepo: https://github.com/particle-iot/blueprint-hello-world
-  name: "Getting Started: Hello World"
-  shortDescription: The classic application, running on your Particle device!
-  version: 1.0.0
-  models: []
-  firstPublished: "Sept 20th 2024, 9:00 am"
-  lastUpdated: "Oct 31st 2024, 7:00 pm"
-  language: "Particle Wiring"
-  cloudServices: []
-  integrations: []
-  hardwareDependencies:
-    - name: Particle MCU Development Boards
-      link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
-  deployLink: https://setup.particle.io/?app=particle-hello-world
-  stats:
-    deploys: 45
-    forks: 3
-  description: |
-    The Hello World Blueprint App for Particle is a beginner-friendly IoT solution that connects a Particle device to the cloud, enabling users to send and receive simple messages. This app demonstrates fundamental IoT interactions, such as sending a “Hello, World!” message from the device and visualizing it in real-time on the Particle dashboard, showcasing how easy it is to set up and deploy IoT applications.
+id: particle/hello-world
+catagory: tutorial
+icon: particle.png
+gitrepo: https://github.com/particle-iot/blueprint-hello-world
+name: "Getting Started: Hello World"
+shortDescription: The classic application, running on your Particle device!
+version: 1.0.0
+models: []
+language: "Particle Wiring"
+cloudServices: []
+integrations: []
+hardwareDependencies:
+  - name: Particle MCU Development Boards
+    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
+description: |
+  The Hello World Blueprint App for Particle is a beginner-friendly IoT solution that connects a Particle device to the cloud, enabling users to send and receive simple messages. This app demonstrates fundamental IoT interactions, such as sending a “Hello, World!” message from the device and visualizing it in real-time on the Particle dashboard, showcasing how easy it is to set up and deploy IoT applications.
