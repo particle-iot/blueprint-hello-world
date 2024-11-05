@@ -2,19 +2,19 @@ id: particle/hello-world
 category: tutorial
 icon: particle.png
 gitrepo: https://github.com/particle-iot/blueprint-hello-world
-name: "Getting Started: Hello World"
+name: "Hello, World!"
 shortDescription: The classic application, running on your Particle device!
 version: 1.0.0
 models: []
 language: [ "Particle Wiring" ]
-cloudServices: [ "Integrations", "Logic", "Ledger", "Lake" ]
+cloudServices: [ "Integrations", "Logic", "Ledger" ]
 integrations: []
 hardwareDependencies:
   - name: Particle MCU Development Board
     link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
     tags: [ "Boron", "Argon", "M-SoM", "Photon 2", "Muon", "Monitor One", "Tracker One", "T-SoM", "E-SoM", "P2" ]
 description: |
-  The Hello World Blueprint App for Particle is a beginner-friendly IoT solution designed for new users to explore the Particle platform and development tools.
+  The Hello World blueprint for Particle is a beginner-friendly IoT solution designed for new users to explore the Particle platform and development tools.
 
   This app connects your Particle device to the cloud and enables simple, periodic interactions. With this setup, the device sends a “Hello, World!” message to the Particle cloud every 10 seconds. You’ll be able to view these messages in real-time on the Particle dashboard.
 
