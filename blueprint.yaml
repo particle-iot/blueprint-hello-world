@@ -1,21 +1,44 @@
 id: particle/hello-world
-category: tutorial
-icon: particle.png
+slug: particle-hello-world
+type: tutorial
+category: "Getting started"
+expertiseLevel: ""
+tags: ["application"]
+icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-hello-world
 name: "Hello, World!"
 shortDescription: The classic application, running on your Particle device!
 version: 1.0.0
 models: []
 language: [ "Particle Wiring" ]
-cloudServices: [ "Integrations", "Logic", "Ledger" ]
+cloudServices:
+  - name: Integrations
+  - name: Logic
+  - name: Ledger
 integrations: []
+supportedDevices:
+  - name: Boron
+  - name: Argon
+  - name: M-SoM
+  - name: Photon 2
+  - name: Muon
+  - name: Monitor One
+  - name: Tracker One
+  - name: T-SoM
+  - name: E-SoM
+  - name: P2
 hardwareDependencies:
-  - name: Particle MCU Development Board
-    link: https://store.particle.io/collections/all-products?filter.p.product_type=Development%20Boards
-    tags: [ "Boron", "Argon", "M-SoM", "Photon 2", "Muon", "Monitor One", "Tracker One", "T-SoM", "E-SoM", "P2" ]
+  - name: Supported device
+introduction: |
+  Welcome to the **Hello World Blueprint App** for Particle devices! This project serves as a starting point for new users to get acquainted with Particle's IoT platform. It demonstrates a simple yet powerful "Hello, World!" program that connects your Particle device to the cloud, sending real-time messages visible on the Particle dashboard.
+
+  **Use this blueprint to begin your IoT journey!** Simply follow the instructions to set up, flash, and monitor your device as it comes alive with your first cloud-connected message.
+
 description: |
   The Hello World blueprint for Particle is a beginner-friendly IoT solution designed for new users to explore the Particle platform and development tools.
 
   This app connects your Particle device to the cloud and enables simple, periodic interactions. With this setup, the device sends a “Hello, World!” message to the Particle cloud every 10 seconds. You’ll be able to view these messages in real-time on the Particle dashboard.
 
   Using this app, you can quickly experience the basics of IoT: connecting a device, setting up event publishing, and visualizing data in the cloud. The template makes it easy to dive into firmware development, test the core features of the Particle ecosystem, and start working with cloud-based services, including Integrations, Logic, Ledger.
+
+additionalResources:
