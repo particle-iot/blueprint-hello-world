@@ -1,8 +1,7 @@
-id: particle/hello-world
 slug: particle-hello-world
 type: tutorial
 category: "Getting started"
-expertiseLevel: ""
+expertiseLevel: "beginner"
 tags: ["application"]
 icon: assets/particle-logo.svg
 gitrepo: https://github.com/particle-iot/blueprint-hello-world
