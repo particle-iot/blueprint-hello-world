@@ -1,9 +1,9 @@
 slug: particle-hello-world
-type: tutorial
+type: Tutorial
 category: "Getting started"
-expertiseLevel: "beginner"
-tags: ["application"]
-icon: assets/particle-logo.svg
+expertiseLevel: "Beginner"
+tags: ["Application"]
+icon: assets/hello-world.svg
 gitrepo: https://github.com/particle-iot/blueprint-hello-world
 name: "Hello, World!"
 shortDescription: The classic application, running on your Particle device!
