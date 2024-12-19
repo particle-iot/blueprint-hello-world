@@ -26,6 +26,8 @@ supportedDevices:
   - name: T-SoM
   - name: E-SoM
   - name: P2
+webIdeLink: https://go.particle.io/shared_apps/6761f677ca3d870509cd4384
+webSetupLink: https://setup.particle.io/?app=particle-hello-world
 hardwareDependencies:
   - name: Supported device
 introduction: |
