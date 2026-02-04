@@ -2,19 +2,16 @@ slug: particle-hello-world
 type: Tutorial
 category: "Getting started"
 expertiseLevel: "Beginner"
-tags: ["Application"]
+tags: ["Publish", "Console"]
 icon: assets/hello-world.svg
 gitrepo: https://github.com/particle-iot/blueprint-hello-world
 name: "Hello, World!"
 shortDescription: The classic application, running on your Particle device!
 version: 1.0.0
 models: []
-language: [ "Particle Wiring" ]
-cloudServices:
-  - name: Integrations
-  - name: Logic
-  - name: Ledger
-integrations: []
+language: ["C++"]
+cloudServices: []
+integrations: ["Logic", "Ledger"]
 supportedDevices:
   - name: Boron
   - name: Argon
